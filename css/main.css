@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box
+  }
+  
+  /* The Universal Selector */
+  *, /* All elements*/
+  *::before, /* All ::before pseudo-elements */
+  *::after { /* All ::after pseudo-elements */
+    /* height & width will now include border & padding by default
+       but can be over-ridden as needed */
+    box-sizing: inherit;
+  }
+  
+  /* resets font size to be 62.5% of the user preference - 
+     in most browser configurations this will be 10px */
+  :root {
+    font-size: 62.5%
+  }
+  
+  body {
+    background-color: #005E5D;
+  /* Use a system font, if none are available use an available sans-sarif   font */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;;
+    border: 
+  }
+
+  main {
+    grid-area: content;
+    background-color: white;
+  }
+
+  .smile {
+    border-radius: 50%;;
+    padding: 10px 0 0 26px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font: sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  section {
+    text-align: center;
+    font-size: 25px;
+    background-color: #F3F3F4;
+    padding: 35px;
+  }
+
+  h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  .profile {
+    padding-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .sns-linkedIn {
+    
+  }
+
+  .sns-twit {
+
+  }
+
+  .sns-insta {
+
+  }
+
+@media only screen and (min-wdith: 600px) {
+    main {
+        display-grid:
+    }
+}
+
+}
