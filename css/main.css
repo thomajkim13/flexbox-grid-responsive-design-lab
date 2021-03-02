@@ -49,32 +49,21 @@ html {
     color: black;
     font-size: 20px;
     padding: 10px;
-  }
-  
-  section {
-    text-align: center;
-    font-size: 25px;
-    background-color: #F3F3F4;
-    padding: 35px;
-  }
-
-  h2 {
-    text-align: center;
-    padding: 0px 0 0px 0;
-    font-size: 10px;
+    background-color: #F2F4F3;
   }
   
   .profile {
     padding: 10px;
     font-size: 13px;
     text-align: center;
-    background-color: white;
   }
 
   .sns {
+      display: flex;
       margin: 0;
       background-color: #27BF76;
       padding: 13px;
+      justify-content: space-around;
   }
 @media only screen and (min-wdith: 500px) {
     main {
@@ -84,7 +73,8 @@ html {
         grid-template-columns: 40% 60%;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: 
-            "";
+            "#occupation"
+            ;
 
 
 
