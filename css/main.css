@@ -89,14 +89,21 @@ html {
       text-align: center;
       font-size: 10px;
     }
-    
+
     #occupation {
       grid-area: occupation;
     }
 
+    .profile {
+      grid-area: profile;
+      padding: auto;
+      text-align: center;
+    }
 
-
- 
+    .sns {
+      grid-area: sns;
+      margin: auto;
+    }
 
 }
 
