@@ -84,6 +84,18 @@ html {
       margin: auto;
     }
 
+    #name {
+      grid-area: name;
+      text-align: center;
+      font-size: 10px;
+    }
+    
+    #occupation {
+      grid-area: occupation;
+    }
+
+
+
  
 
 }
